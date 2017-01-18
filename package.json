@@ -4,7 +4,8 @@
   "description": "simple chat app to explore mircoservice architecture",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/init.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,10 @@
   "homepage": "https://github.com/allenphilip93/chatapp-nodejs#readme",
   "dependencies": {
     "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
     "express": "^4.14.0",
-    "mongodb": "^2.2.21"
+    "mongodb": "^2.2.21",
+    "morgan": "^1.7.0"
   }
 }
